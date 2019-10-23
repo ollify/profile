@@ -1,0 +1,134 @@
+body {
+  background-color: #F5F5F5 !important;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48;
+  font-weight: 600;
+  color: #404040;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffaf00;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0,0, 0.33);
+  margin: 30px;
+}
+
+
+#banner {
+  background-image: url("images/bg_new.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: none;
+  height: 450px;
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.card {
+  width: 600px;
+  background-color: white;
+  margin: 0 auto 30;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 5px 5px #ffaf00;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+#header {
+  margin: -250px auto 30px;
+}
+
+#general-card {
+  box-shadow: 5px 5px #19FF9B;
+}
+
+#general-card:hover {
+  box-shadow: 5px 5px #ffaf00;
+}
+
+#social-card{
+  box-shadow: 5px 5px #14B6CC;
+}
+
+#social-card:hover {
+  box-shadow: 5px 5px #ffaf00;
+}
+
+#social-card ul{
+  font-size: 30px;
+}
+
+.btn-master {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #14B6CC;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 35px !important;
+    display: inline-block;
+    box-shadow: 5px 5px #ffaf00;
+}
+
+.btn-master:hover{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ffaf00;
+  box-shadow: 5px 5px #14B6CC;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  font-size: 35px;
+  display: inline-block;
+  float:left;
+  vertical-align: top;
+  width: 50%;
+}
